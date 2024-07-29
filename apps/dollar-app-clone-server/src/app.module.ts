@@ -3,6 +3,7 @@ import { TransactionModule } from "./transaction/transaction.module";
 import { AccountModule } from "./account/account.module";
 import { CurrencyModule } from "./currency/currency.module";
 import { UserModule } from "./user/user.module";
+import { CircleModule } from "./circle/circle.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -19,6 +20,7 @@ import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
     AccountModule,
     CurrencyModule,
     UserModule,
+    CircleModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
